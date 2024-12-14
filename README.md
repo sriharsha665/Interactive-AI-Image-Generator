@@ -1,7 +1,5 @@
 # Interactive-AI-Image-Generator
 
-#Interactive-AI-Image-Generator Description
-
 
 ## Overview
 The **AI Image Generator** is a web application that allows users to generate images based on text prompts using a model hosted on Hugging Face's API. Users can enter their prompts, view the generated images, and download them directly from the application.
@@ -22,3 +20,102 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.7 or later installed on your system.
 - Hugging Face API key.
 - Flask and other dependencies installed (listed in `requirements.txt`).
+
+## Installation
+
+### Clone the repository:
+```bash
+git clone https://github.com/your-username/ai-image-generator.git
+```
+
+###Navigate to the project directory:
+```bash
+cd ai-image-generator
+```
+###Create and activate a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use venv\Scripts\activate
+```
+**You can copy and paste this into your `README.md` file.
+**Let me know if you need further edits!
+
+### Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+###Configuration
+**Replace the API_KEY variable in app.py with your Hugging Face API key:
+**API_KEY = "your_huggingface_api_key"
+
+###Usage
+**Start the Flask development server:
+**Usage
+Start the Flask development server:
+**python app.py
+
+**Open your browser and navigate to:
+**http://127.0.0.1:5000
+
+--** 1.Enter a prompt in the text field and click "Generate Image".
+--** 2.View the generated image and download it if desired.
+
+.
+├── static
+│   ├── styles.css        # Styles for the application
+│   └── [generated_images] # Folder where images are saved (auto-created)
+├── templates
+│   └── index.html        # HTML template for the app
+├── app.py                # Flask application script
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. **Fork this repository**.
+
+2. **Create a branch**:
+   ```bash
+   git checkout -b feature-name
+```
+```
+
+3. **Make your changes and commit them:**:
+   ```bash
+   git commit -m 'Add feature-name'
+
+```
+```
+4.** Push to the original branch::**:
+   ```bash
+  git push origin feature-name
+
+```
+```
+```
+5.**Create a pull request.**
+
+
+## License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+## Acknowledgments
+
+- **Hugging Face** for providing the inference API.
+- **Flask documentation** for guidance on building web applications.
+- **Unsplash** for inspiration on image handling.
+
+## Contact
+
+For any questions or feedback, please contact:
+
+- **Email:** [harshapappu665@gmail.com](mailto:your-email@example.com)
+- **GitHub:** [sriharsha665](https://github.com/your-username)
+
+
+
+
