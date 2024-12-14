@@ -52,22 +52,23 @@ pip install -r requirements.txt
 ### Usage
 
 1. Start the Flask development server:
+  ```bash
   python app.py
-
+```
 2. Open your browser and navigate to:
+ ```bash
   http://127.0.0.1:5000
+```
 
 -  1.Enter a prompt in the text field and click "Generate Image".
 -  2.View the generated image and download it if desired.
 
-.
+
 ├── static
 │   ├── styles.css      
-│   └── [generated_images] 
-.
+│   └── [generated_images]
 ├── templates
 │   └── index.html       
-.
 ├── app.py               
 ├── requirements.txt      
 └── README.md            
@@ -81,12 +82,12 @@ Contributions are welcome! To contribute:
 2. **Create a branch**:
    ```bash
    git checkout -b feature-name
-```
+``
 
 3. **Make your changes and commit them:**:
    ```bash
    git commit -m 'Add feature-name'
-```
+``
 4.** Push to the original branch::**:
    ```bash
   git push origin feature-name
