@@ -28,37 +28,34 @@ Before you begin, ensure you have met the following requirements:
 git clone https://github.com/your-username/ai-image-generator.git
 ```
 
-###Navigate to the project directory:
+### Navigate to the project directory:
 ```bash
 cd ai-image-generator
 ```
-###Create and activate a virtual environment (optional but recommended):
+### Create and activate a virtual environment (optional but recommended):
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use venv\Scripts\activate
 ```
-**You can copy and paste this into your `README.md` file.
-**Let me know if you need further edits!
+You can copy and paste this into your `README.md` file.
+Let me know if you need further edits!
 
 ### Install Dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-###Configuration
-**Replace the API_KEY variable in app.py with your Hugging Face API key:
-**API_KEY = "your_huggingface_api_key"
+###  Configuration
+Replace the API_KEY variable in app.py with your Hugging Face API key:
+API_KEY = "your_huggingface_api_key"
 
-###Usage
-
-**Start the Flask development server:
-**Usage
+### Usage
 
 Start the Flask development server:
-**python app.py
+python app.py
 
 **Open your browser and navigate to:
-**http://127.0.0.1:5000
+http://127.0.0.1:5000
 
 --** 1.Enter a prompt in the text field and click "Generate Image".
 --** 2.View the generated image and download it if desired.
