@@ -50,8 +50,10 @@ pip install -r requirements.txt
 **API_KEY = "your_huggingface_api_key"
 
 ###Usage
+
 **Start the Flask development server:
 **Usage
+
 Start the Flask development server:
 **python app.py
 
@@ -63,13 +65,13 @@ Start the Flask development server:
 
 .
 ├── static
-│   ├── styles.css        # Styles for the application
-│   └── [generated_images] # Folder where images are saved (auto-created)
+│   ├── styles.css      
+│   └── [generated_images] 
 ├── templates
-│   └── index.html        # HTML template for the app
-├── app.py                # Flask application script
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+│   └── index.html       
+├── app.py               
+├── requirements.txt      
+└── README.md            
 
 ## Contributing
 
@@ -80,21 +82,15 @@ Contributions are welcome! To contribute:
 2. **Create a branch**:
    ```bash
    git checkout -b feature-name
-```
-```
+``
 
 3. **Make your changes and commit them:**:
    ```bash
    git commit -m 'Add feature-name'
-
-```
-```
+``
 4.** Push to the original branch::**:
    ```bash
   git push origin feature-name
-
-```
-```
 ```
 5.**Create a pull request.**
 
