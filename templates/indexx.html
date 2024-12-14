@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="/static/styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Image Generator</h1>
+        <form method="POST">
+            <label for="prompt" id="nn">Enter your prompt:</label><br>
+            <textarea id="prompt" name="prompt" rows="4" required></textarea><br>
+            <button type="submit">Generate Image</button>
+        </form>
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+        {% if image_url %}
+            <div class="result">
+                <h2>Generated Image:</h2>
+                <img src="{{ image_url }}" alt="Generated Image">
+                <a id="nn" href="/download/{{ image_url.split('/')[-1].split('?')[0] }}" download>Download Image</a>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
