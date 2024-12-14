@@ -46,26 +46,28 @@ pip install -r requirements.txt
 ```
 
 ###  Configuration
-Replace the API_KEY variable in app.py with your Hugging Face API key:
-API_KEY = "your_huggingface_api_key"
+- Replace the API_KEY variable in app.py with your Hugging Face API key.
+- API_KEY = "your_huggingface_api_key"
 
 ### Usage
 
-Start the Flask development server:
-python app.py
+1. Start the Flask development server:
+  python app.py
 
-**Open your browser and navigate to:
-http://127.0.0.1:5000
+2. Open your browser and navigate to:
+  http://127.0.0.1:5000
 
---** 1.Enter a prompt in the text field and click "Generate Image".
---** 2.View the generated image and download it if desired.
+-  1.Enter a prompt in the text field and click "Generate Image".
+-  2.View the generated image and download it if desired.
 
 .
 ├── static
 │   ├── styles.css      
 │   └── [generated_images] 
+.
 ├── templates
 │   └── index.html       
+.
 ├── app.py               
 ├── requirements.txt      
 └── README.md            
@@ -79,12 +81,12 @@ Contributions are welcome! To contribute:
 2. **Create a branch**:
    ```bash
    git checkout -b feature-name
-``
+```
 
 3. **Make your changes and commit them:**:
    ```bash
    git commit -m 'Add feature-name'
-``
+```
 4.** Push to the original branch::**:
    ```bash
   git push origin feature-name
